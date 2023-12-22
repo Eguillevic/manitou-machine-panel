@@ -1,0 +1,1 @@
+# manitou-machine-panel
