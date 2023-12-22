@@ -135,7 +135,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      apiUrl: process.env.API_BASE_URL || 'http://localhost:3000',
+      apiUrl: process.env.API_BASE_URL || 'https://test.api-salesbox.connect.mg/api/v1',
       appBaseUrl: process.env.APP_BASE_URL || 'http://localhost:3000',
       storageUrl: process.env.STORAGE_URL || 'http://localhost:3000',
     }
