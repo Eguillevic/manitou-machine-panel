@@ -1,0 +1,20 @@
+{
+  "welcome": "Bienvenue",
+  "emails_to_be_sent": "{total} emails restants en attente d'envoi",
+  "machine": "Machine",
+  "attachment": "Accessoire",
+  "innovation": "Innovation",
+  "service": "Service",
+  "receive_the_datasheet": "Recevoir la fiche produit",
+  "english": "Anglais",
+  "french": "Français",
+  "unit": "Unité",
+  "back_to_machine": "Retour à la machine",
+  "machine_title": "Fiche produit de la machine {product}",
+  "attachments_title": "Accessoires de la machine {product}",
+  "innovations_title": "Innovations de la machine {product}",
+  "services_title": "Services de la machine {product}",
+  "compatible_attachments": "Accessoires compatibles",
+  "innovation_at_your_service": "Innovations à votre service",
+  "at_your_service": "A votre service"
+}

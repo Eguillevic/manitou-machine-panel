@@ -1,0 +1,156 @@
+:root {
+  --primary: theme('colors.primary');
+  --primary-hover: theme('colors.primary-hover');
+  //--secondary: theme('colors.secondary');
+  //--light-secondary: theme('colors.light-secondary');
+  --white: theme('colors.white');
+  --grey: theme('colors.grey');
+  --med-grey: theme('colors.med-grey');
+  --dark-grey: theme('colors.dark-grey');
+  --black: theme('colors.black');
+  --danger: theme('colors.danger');
+  --success: theme('colors.success');
+  --active: theme('colors.active');
+  --navbar-width: 118px;
+}
+
+//    ____      _                          _      _   _
+//   / ___|___ | | ___  _ __   _ __   __ _| | ___| |_| |_ ___
+//  | |   / _ \| |/ _ \| '__| | '_ \ / _` | |/ _ \ __| __/ _ \
+//  | |___ (_) | | (_) | |    | |_) | (_| | |  __/ |_| |_  __/
+//   \____\___/|_|\___/|_|    | .__/ \__,_|_|\___|\__|\__\___|
+//                            |_|
+
+// APP UI COLORS
+$black: #000000;
+$blackish: #101010;
+$carbon: #3e3e3e;
+$medium-grey: #919191;
+$silver: #b8bebe;
+$light-grey: #f5f5f5;
+$white: #ffffff;
+$linkedin: #2D80AA;
+
+// BUEFY COLORS
+$black-bis: hsl(0, 0%, 7%);
+$black-ter: hsl(0, 0%, 14%);
+$grey-darker: hsl(0, 0%, 21%);
+$grey-dark: hsl(0, 0%, 29%);
+$grey: hsl(0, 0%, 48%);
+$grey-light: hsl(0, 0%, 71%);
+$grey-lighter: hsl(0, 0%, 86%);
+$white-ter: hsl(0, 0%, 96%);
+$white-bis: hsl(0, 0%, 98%);
+$orange: hsl(14, 100%, 53%);
+$yellow: hsl(40, 100%, 57%);
+$green: hsl(155, 81%, 39%);
+$turquoise: hsl(171, 100%, 41%);
+$cyan: hsl(204, 86%, 53%);
+$blue: hsl(227, 85%, 54%);
+$purple: hsl(271, 100%, 71%);
+$red: hsl(348, 100%, 61%);
+
+//   _____           _
+//  |  ___|__  _ __ | |_ ___
+//  | |_ / _ \| '_ \| __/ __|
+//  |  _| (_) | | | | |_\__ \
+//  |_|  \___/|_| |_|\__|___/
+//
+
+$font_roboto: 'Roboto Condensed';
+$font_icomoon: 'icomoon';
+$default_font: $font_roboto, sans-serif;
+
+//   __  __          _ _                               _
+//  |  \/  | ___  __| (_) __ _    __ _ _   _  ___ _ __(_) ___ ___
+//  | |\/| |/ _ \/ _` | |/ _` |  / _` | | | |/ _ \ '__| |/ _ \ __|
+//  | |  | |  __/ (_| | | (_| | | (_| | |_| |  __/ |  | |  __\__ \
+//  |_|  |_|\___|\__,_|_|\__,_|  \__, |\__,_|\___|_|  |_|\___|___/
+//                                  |_|
+
+$mq_phone: "all and (max-width: 768px)"; // instead of 767px force phone view on tablet portrait
+$mq_small_height: "all and (min-aspect-ratio: 123/58)";
+
+$large_desktop: "all and (min-width: 1400px)";
+$desktop: "all and (min-width: 1280px)";
+$tablethor: "all and (min-width: 1024px)";
+$tablet: "all and (min-width: 768px)";
+$phablet: "all and (min-width: 568px)";
+
+//   __  __ _                _
+//  |  \/  (_)___  ___   ___(_)_______ ___
+//  | |\/| | / __|/ __| / __| |_  / _ \ __|
+//  | |  | | \__ \ (__  \__ \ |/ /  __\__ \
+//  |_|  |_|_|___/\___| |___/_/___\___|___/
+//
+$wrapper_min: 1272px;
+$wrapper_max: 1440px;
+
+$spacing-xs: .25rem;
+$spacing-sm: .5rem;
+$spacing: 1rem;
+$spacing-lg: 2rem;
+$spacing-xl: 4rem;
+
+$header-height: 84px;
+
+//////////
+//
+// BULMA
+//
+//////////
+
+/***** buttons *****/
+//$button-color: $color-white;
+//$button-background-color: $color-primary;
+$button-family: $default_font;
+//
+//$button-border-color: $color-primary;
+$button-border-width: 2px !default;
+
+// $button-padding-vertical: 0.75rem;
+// $button-padding-horizontal: 35px;
+//
+//$button-hover-color: $link-hover !default
+//$button-hover-border-color: $link-hover-border !default
+//
+//$button-focus-color: $link-focus !default
+//$button-focus-border-color: $link-focus-border !default
+//$button-focus-box-shadow-size: 0 0 0 0.125em !default
+//$button-focus-box-shadow-color: rgba($link, 0.25) !default
+//
+//$button-active-color: $link-active !default
+//$button-active-border-color: $link-active-border !default
+//
+//$button-text-color: $text !default
+//$button-text-hover-background-color: $background !default
+//$button-text-hover-color: $text-strong !default
+//
+//$button-disabled-background-color: $white !default
+//$button-disabled-border-color: $grey-lighter !default
+//$button-disabled-shadow: none !default
+//$button-disabled-opacity: 0.5 !default
+//
+//$button-static-color: $grey !default
+//$button-static-background-color: $white-ter !default
+//$button-static-border-color: $grey-lighter !default
+
+//modal
+$modal-background-background-color: rgba(66, 66, 66, 0.8);
+
+//input
+$input-background-color: $light-grey;
+$input-border-color: $light-grey;
+$input-hover-border-color: $light-grey;
+$input-focus-border-color: $light-grey;
+$input-shadow: none;
+$input-focus-box-shadow-color: transparent;
+$input-focus-box-shadow-size: 0;
+//$input-radius: 4px;
+
+//pagination
+$pagination-current-background-color: transparent;
+$pagination-disabled-background-color: transparent;
+$pagination-item-padding-left: 0;
+$pagination-item-padding-right: 0;
+$pagination-item-font-size: 12px;

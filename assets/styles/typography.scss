@@ -1,0 +1,63 @@
+/* Roboto Condensed - 300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/RobotoCondensed-Light.woff2") format("woff2");
+}
+
+/* Roboto Condensed - regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2");
+}
+
+/* Roboto Condensed - Medium - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/RobotoCondensed-Medium.woff2") format("woff2");
+}
+
+///* Roboto Condensed - 600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/RobotoCondensed-SemiBold.woff2") format("woff2");
+}
+
+///* Roboto Condensed - 700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/RobotoCondensed-Bold.woff2") format("woff2");
+}
+
+/* Roboto Condensed - 900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/RobotoCondensed-ExtraBold.woff2") format("woff2");
+}
+
+/* Manitou - 900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: Manitou;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/ManitouExtraBold.woff2") format("woff2"),
+  url('../fonts/ManitouExtraBold.woff') format('woff');
+}

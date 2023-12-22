@@ -1,0 +1,22 @@
+{
+  "index": {
+    "en": "/",
+    "fr": "/"
+  },
+  "product/[id]": {
+    "en": "/product/:id",
+    "fr": "/machine/:id"
+  },
+  "product/[id]-attachment": {
+    "en": "/product/:id/attachments",
+    "fr": "/machine/:id/accessoires"
+  },
+  "product/[id]-innovation": {
+    "en": "/product/:id/innovation",
+    "fr": "/machine/:id/innovation"
+  },
+  "product/[id]-service": {
+    "en": "/product/:id/service",
+    "fr": "/machine/:id/service"
+  }
+}
